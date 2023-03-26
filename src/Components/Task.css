@@ -1,0 +1,49 @@
+:root {
+  --color2: #0029ff;
+}
+
+.task {
+  width: 74%;
+  height: 232px;
+  margin: 18px auto 75px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top > h1 {
+  color: var(--color2);
+}
+.top > button {
+  padding: 9px 24px;
+  font-size: 12px;
+  background: var(--color2);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.bottom {
+  width: 100%;
+  height: 135px;
+  padding: 25px 27px;
+  background: #e9ecef;
+  border-radius: 5px;
+}
+
+.bottom > p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.bottom > h3 {
+  font-size: 20px;
+  line-height: 2px;
+}

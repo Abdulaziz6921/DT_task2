@@ -1,0 +1,33 @@
+.nBoard {
+  width: 95px;
+  height: 394px;
+  border-radius: 30px 0px 0px 30px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.close {
+  width: 50px;
+  height: 100%;
+  background: #000;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.xBtn {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+p.notice {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  letter-spacing: 0.3px;
+  margin-bottom: 25px;
+}
